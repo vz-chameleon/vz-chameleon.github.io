@@ -1,0 +1,126 @@
+body {
+	background-color: #FFF9F4;
+	font-family: "lucida grande", "lucida sans", verdana, sans-serif;
+	color: black;
+	font-size: 10pt;
+	line-height: 1.6em; }
+
+
+div.mainwrapper {
+	position: relative;
+	display: block;
+	width: 70.0em;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -8px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	}
+  
+p {
+	margin-top: 0em;
+	margin-bottom: 1.6em; }
+	
+
+/* Positions */
+  
+div.maintitle {
+	position: absolute;
+	top: 4.0em;
+	left: 4.8em; }
+  
+div.subtitle {
+	position: absolute;
+	top: 6.4em;
+	left: 4.8em; }
+  
+div.menu {
+	position: absolute;
+	top: 16.0em;
+	left: 4.8em;
+	border-right: 0.5px solid #FF6600;
+	padding-right : 15px;
+	}
+  
+div.submenu {
+	position: absolute;
+	top: 16.0em;
+	left: 4.8em; }
+
+div.maintext { 
+	position: relative;
+	left: 28.8em;
+	width: 35.2em;
+/*	width: 31.4em; */
+/*	width: 30.4em; */
+/*	width: 35.2em; */
+	padding-top: 16.0em;
+	padding-bottom: 4.8em; }
+  
+p.section {
+	position: relative;
+	float: left;
+	margin-left: -6.3em;
+	margin-top: 2.8em;
+	margin-bottom: 2.1em;
+	width: 42.7em;
+	color: #FF6600;}
+	
+
+/* Fonts */
+
+span.maintitle {
+	font-size: 16pt; }
+  
+span.subtitle {
+	font-size: 12pt;
+	color: #7F7F7F; }
+	
+span.large {
+	font-size: 11pt; }
+  
+div.small {
+	font-size: 8pt; }
+  
+span.small {
+	font-size: 8pt; }
+  
+span.gray {
+	color: #7F7F7F }  
+  
+span.black {
+	color: #000000 }
+  
+span.white {
+	color: #FFFFFF }
+  
+span.orange {
+	color: #FF6600 }
+  
+span.heading {
+	color: #7F7F7F;
+	font-size: 11pt; }
+  
+
+/* Links */
+
+a { text-decoration: none }
+a:link { color: black }
+a:visited { color: black }
+a:active { color: red }
+a:hover { color: #FF6600 }
+
+span.gray a:link { color: #7F7F7F }
+span.gray a:visited { color: #7F7F7F }
+span.gray a:hover { color: #FF6600 }
+
+span.smallgray a:link { color: #7F7F7F }
+span.smallgray a:visited { color: #7F7F7F }
+span.smallgray a:hover { color: #FF6600 }
+
+span.orange a:link { color: #FF6600 }
+span.orange a:visited { color: #FF6600 }
+span.orange a:hover { color: black }
+
+p.section a:hover {color: black; }
