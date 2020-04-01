@@ -1,5 +1,5 @@
 body {
-	background-color: #FFF9F4;
+	background-color: #FFF5BD;
 	font-family: "lucida grande", "lucida sans", verdana, sans-serif;
 	color: black;
 	font-size: 10pt;
@@ -28,7 +28,8 @@ p {
 div.maintitle {
 	position: absolute;
 	top: 4.0em;
-	left: 4.8em; }
+	left: 4.8em;
+	color: #FFA600 }
   
 div.subtitle {
 	position: absolute;
@@ -55,8 +56,23 @@ div.maintext {
 /*	width: 31.4em; */
 /*	width: 30.4em; */
 /*	width: 35.2em; */
+	padding-top: 14.0em; }
+
+div.sectiontext { 
+	position: relative;
+	left: 12.8em;
+	width: 50.2em;
+/*	width: 31.4em; */
+/*	width: 30.4em; */
+/*	width: 35.2em; */
 	padding-top: 16.0em;
 	padding-bottom: 4.8em; }
+
+div.foottext {
+	position: absolute;
+	left: 30em;
+	padding-bottom: 0.1em;
+}
   
 p.section {
 	position: relative;
@@ -101,6 +117,8 @@ span.orange {
 span.heading {
 	color: #7F7F7F;
 	font-size: 11pt; }
+
+span:hover { color: #FF6600 }
   
 
 /* Links */
@@ -124,3 +142,32 @@ span.orange a:visited { color: #FF6600 }
 span.orange a:hover { color: black }
 
 p.section a:hover {color: black; }
+
+
+heading {
+  font-family: "lucida grande", "lucida sans", verdana, sans-serif;
+color: #FFA600;
+	font-size: 20px;
+}
+
+papertitle {
+  font-family: "lucida grande", "lucida sans", verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 700
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+

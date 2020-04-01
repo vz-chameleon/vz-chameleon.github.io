@@ -10,21 +10,23 @@
 <body>
 <div class="mainwrapper">
 
-	 
 	<div class="maintitle"><span class="maintitle">Valentina Zelaya Mendizábal</span></div>
 	<div class="subtitle"><span class="subtitle">Research engineer at Orange <span class="orange"> &nbsp;|&nbsp; </span> PhD candidate at Université Panthéon-Sorbonne</span></div>
 	<div class="menu">
 		<p style="margin-bottom: 0.8em;">
-			<span class="gray"><a href="#">Research</a></span>
+			<span class="gray"><a href="index.html">Home</a></span>
 		</p>
 		<p style="margin-bottom: 0.8em;">
-			<span class="gray"><a href="#">Art</a></span>
+			<span class="gray" onClick="showResearch()">Research</span>
+		</p>
+		<p style="margin-bottom: 0.8em;">
+			<span class="gray" onClick="showArt()">Art</span>
 		</p>
 		<p style="margin-bottom: 0.8em;">
 			<span class="gray"><a href="#">Misc</a></span>
 		</p>
 	</div>
-<div class="maintext">	 
+<div class="maintext" id="about-me">	 
 
 	I am a research engineer at <a href="https://fr.wikipedia.org/wiki/Orange_Labs">Orange Labs</a> and a PhD candidate at <a href="https://www.pantheonsorbonne.fr/recherche">Université Panthéon-Sorbonne</a>.<br> 
 	I work with <a href="https://apiacoa.org/index.en.html">Pr Fabrice Rossi </a> and <a href="http://www.marc-boulle.fr/">Dr. Marc Boullé </a> on the exploratory analysis of data streams. More specifically, we are looking for ways of building <u>compact</u> yet <u>reliable</u> <b>summaries of volatile data </b><br>
@@ -41,10 +43,112 @@
 	<p style="position: relative; left: -14.5em; bottom: 22.6em; width: 8.4em">
         <a href="img/me.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="img/me.jpg"></a>
 	</p>
-	<p style="margin-bottom: 0em;"><span class="small"><span class="gray"><a href="index.html">Home</a></span><span class="orange"> &nbsp;|&nbsp; </span>
-	<span class="gray"><a href="mailto:valentina.zelayamendizabal@orange.com">valentina.zelayamendizabal@orange.com</a></span><span class="orange"> &nbsp;|&nbsp; </span><span class="gray"><span class="gray"><a href="https://fr.linkedin.com/in/v-zelaya" target="_blank">LinkedIn</a></span><span class="orange"> &nbsp;|&nbsp; </span><a href="https://github.com/vz-chameleon" target="_blank">GitHub</a></span></span></p>
-</div>
+	
 </div>
 
+
+<div class=sectiontext id="research-div" style="display:none;" >
+
+    <p>
+    I'm interested in machine learning, optimization and infomation theory. <br> Much of my current research is focused on extracting interesting information from large amounts of data using the Minimum Description Length principle (MDL), an information theory framework for model selection. 
+  	</p>
+
+    <br>
+    <heading>Publications</heading>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mdlhists_image'>
+                <img src='img/mdlhists.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="#">
+                <papertitle>MDL histograms
+				</papertitle>
+              </a>
+              <br>
+              <strong style¨="font-size: 12px;">Valentina Zelaya Mendizábal*</strong>,
+              <a href="http://www.marc-boulle.fr/"  style¨="font-size: 12px;" >Marc Boullé*</a>,
+              <a href="https://apiacoa.org/"  style¨="font-size: 12px;">Fabrice Rossi</a>,
+              <a href="https://www.researchgate.net/profile/Fabrice_Clerot"  style¨="font-size: 12px;">Fabrice Clérot</a>
+              <br>
+        <em>Some journal or conference</em>, 2020  
+              <br>
+              <a href="#">project page</a>
+        /
+              <a href="#">arXiv</a>
+        /      
+              <a href="#">code</a>
+              <p></p>
+              <p>
+              Analytical and experimental evaluation of two MDL codes for building histograms without having to make assumptions about the distribution of values. </p>
+            </td>
+          </tr> 
+
+        </tbody>
+    </table>
+</div>
+
+
+<div class=sectiontext id="art-div" style="display:none;" >
+
+    <p>
+    If you've ever found yourself wafting off into your own mind, your hand scribbling random things on a piece of paper in front of you, writing random words that make no sense or drawing some lines that suddenly become something extraterrestrial... then you already know what I do when I'm struggling to concentrate.<br>
+    These doodles are not meant to <em> be anything </em>, they are just a reflection of the noodle soup that sometimes cooks in my head...
+  	</p>
+
+    <br>
+    <heading>Drawings</heading>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mdlhists_image'>
+                <img src='img/mdlhists.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mdlhists_image'>
+                <img src='img/mdlhists.png' width="160">
+              </div>
+            </td>
+            
+          </tr> 
+          </tbody>
+    </table>
+</div>
+
+
+<div class="foottext" style="margin-bottom: 2em;"><span class="small"><span class="gray"><a href="index.html">Home</a></span><span class="orange"> &nbsp;|&nbsp; </span>
+	<span class="gray"><a href="mailto:valentina.zelayamendizabal@orange.com">valentina.zelayamendizabal@orange.com</a></span><span class="orange"> &nbsp;|&nbsp; </span><span class="gray"><span class="gray"><a href="https://fr.linkedin.com/in/v-zelaya" target="_blank">LinkedIn</a></span><span class="orange"> &nbsp;|&nbsp; </span><a href="https://github.com/vz-chameleon" target="_blank">GitHub</a></span></span></div>
+
+</div>
+
+
+
+
+
+<script type="text/javascript">         
+   function showResearch() {
+       document.getElementById('research-div').style.display = "block";
+       document.getElementById('about-me').style.display = "none";
+       document.getElementById('art-div').style.display = "none";
+   }   
+
+   function showArt() {
+   	document.getElementById('art-div').style.display = "block";
+    document.getElementById('research-div').style.display = "none";
+    document.getElementById('about-me').style.display = "none";  
+   }               
+</script>
 
 </body></html>
